@@ -45,7 +45,6 @@ const textLi = document.createTextNode('Li Baru');
 const ul = document.querySelector('section#b ul');
 const li2 = ul.querySelector('li:nth-child(1)');
 
-
 liBaru.appendChild(textLi);
 divBaru.appendChild(texkDiv);
 const sectionA = document.getElementById('a');
@@ -54,3 +53,6 @@ divBaru.style.fontFamily = 'arial';
 divBaru.setAttribute('class','none');
 
 ul.insertBefore(liBaru , li2);
+
+
+sectionA.removeChild(a);
