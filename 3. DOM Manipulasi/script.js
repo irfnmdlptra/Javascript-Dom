@@ -19,4 +19,6 @@ a.innerHTML = 'ini di ubah di javascript';
 judul.setAttribute('name', 'sandika');
 
 
+let indo = document.getElementById
+
 

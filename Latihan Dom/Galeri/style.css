@@ -33,6 +33,17 @@ body {
     cursor: pointer;
 }
 
+.vidio {
+    width: 200px;
+    height: 134px;
+    background-color: aqua;
+
+}
+
+.thumb video {
+    height: 100%;
+}
+
 @keyframes fadeIn {
     to {
         opacity: 1;
