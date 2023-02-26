@@ -5,6 +5,27 @@ judul.style.color = 'red';
 judul.style.backgroundColor = '#ccc';
 judul.innerHTML = 'irfan mdlptra';
 
+const link = document.getElementsByTagName('a')[0];
+link.innerHTML = 'instagram irfnmdlptra'
+link.style.textDecoration = 'none';
+link.style.background = 'salmon';
+link.setAttribute('play','');
+
+const p = document.querySelectorAll('p');
+for(let i = 0 ; i < p.length ; i++) {
+    p[i].style.color = 'red';
+    p[i].innerHTML = 'bismil';
+}
+
+const li = document.querySelectorAll('section#b li');
+for(let i = 0; i < li.length; i++){
+    li[i].innerHTML = 'coba'
+}
+
+// const li = document.querySelectorAll('sli');
+// for( let i = 0; i < li.length ; i++){
+//     li[i].style.background  = 'red';
+// }
 // document.getElementsByTagName()
 // cari nama tag yang namanya ('apa')
 //  -> HTMLColletions
@@ -27,12 +48,6 @@ judul.innerHTML = 'irfan mdlptra';
 // const p1 = document.getElementsByClassName('p1')[0];
 // p1.innerHTML = 'Ini  di ubah dari java script';
 // p1.style.color = 'yellow';
-
-
-const link = document.getElementsByTagName('a')[0];
-link.innerHTML = 'instagram irfnmdlptra'
-link.style.textDecoration = 'none';
-link.style.background = '';
 
 
 
@@ -63,7 +78,10 @@ link.style.background = '';
 // const p4= sectionb.querySelector('p');
 // p4.style.backgroundColor = 'orange';
 
-const sectionB = document.querySelector('section#b');
-const p4 = sectionB.getElementsByTagName('p')[0];
-p4.style.backgroundColor = 'orange';
+// const sectionB = document.querySelector('section#b');
+// const p4 = sectionB.querySelectorAll('li');
+// for(let i = 0; i < li.length ; i++ ){
+//     p4[i].style.color = 'red'
+// }
+
 
